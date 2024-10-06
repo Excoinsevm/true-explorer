@@ -176,11 +176,11 @@ export default new Vuex.Store({
         currentWorkspace: state => state.currentWorkspace,
         connected: state => state.connected,
         chains: () => ({
-            ethereum: {
-                slug: 'ethereum',
-                name: 'Ethereum',
-                token: 'Ether',
-                scanner: 'Etherscan'
+            brock: {
+                slug: 'bitrock',
+                name: 'Bitrock',
+                token: 'BROCK',
+                scanner: 'Brockscan'
             },
             bsc: {
                 slug: 'bsc',
