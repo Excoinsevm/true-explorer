@@ -210,7 +210,7 @@ export default new Vuex.Store({
         chain: (state, getters) => {
             return getters.isPublicExplorer ?
                 state.publicExplorer :
-                getters.chains[state.currentWorkspace.chain || 'ethereum'];
+                getters.chains[state.currentWorkspace.chain || 'brock'];
         }
     }
 });
